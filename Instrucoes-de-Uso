@@ -1,0 +1,22 @@
+Para utilizar a aplicação você precisa:
+
+ - Ter o Node.JS instalado em sua maquina
+ - Voce precisa navegar com o terminal até a pasta aonde está o projeto
+ - Digite no termina : node app.js para inicializar a API
+ - A API esta rodando na porta 8080 mas pode ser alterada no aquivo app.js
+ - O Cliente, é um interce limpa e responsiva
+ 
+ Recursos:
+ 
+ Todas as colunas da index.html suporta filtros: Ou seja, você pode buscar dados em qualquer coluna da tabela, basta apenas digitar o nome
+ as inicias, um texto que possa existir no dado que você esta procurando, qualquer fraguimento de dado as tabelas são capazes de filtar.
+ 
+ Para procurar em intervalos de data digite por exemplo: Para acessar entradas que ocorreram apenas no mês 7,  eu digito no campo filtro
+ 07, se eu quero do dia 4 do 7 à 5 do 8 eu digito: 4 07 08 ou seleciono as datas que o filtro traz todas as informações deste período. 
+ Muito dinamica a primeira interface deste projeto (index.html).
+ 
+ Para ver o STATUS das prioridades, clique em status, uma nova tela aparecerá informando dados do cliente e o status de suas interações
+ 
+ O Status são classificados pelo humor do cliente, para isto o algoritmo faz uma farredura nas strings mensagens que o usuário digitou
+ procurando por certas palavras que expressam raiva ou descontentamento, com isto a entrada é classificada com prioridade ALTA. O algoritmo 
+ também executa uma varredura no campo assunto para ler as Strings e de acordo com o assunto também é classificada as prioridades dos tickets
