@@ -1,0 +1,11 @@
+Autor : Cleiton Corrêa
+GitHub: https://github.com/CleitonCorrea
+email : cleitoncorrea2013@hotmail.com
+
+Projeto desenvolvido para fins de demonstração
+
+Segue o DESAFIO FULL Stack o qual foi solicitado, desde já, muito obrigado
+
+Att,
+
+Cleiton Corrêa

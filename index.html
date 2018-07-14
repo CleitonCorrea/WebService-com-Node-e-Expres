@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="author" content="Cleiton Correa"/>  
+    <meta name="description" content="Documento de realizado para a empresa NeoAssist"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+    <title>Teste NeoAssiste Back-End</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet"> 
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 center">
+        <h3 class="jumbotron">Tickets de Atendimento</h3>
+        
+      </div>
+    </div>
+    <div class="row" style="padding-bottom: 30px;">
+      <div class="col-md-12">
+        <table id="minhaTabela" class="table table-striped table-bordered table-condensed table-hover sortable">
+          <thead>
+            <tr>
+              <th>Ticket</th>
+              <th>Categoria</th>
+              <th>Cliente</th>
+              <th>Nome Cliente</th>
+              <th>Email Cliente</th>
+              <th>Aberto</th>
+              <th>Atualizado</th>
+              <th>Prioridade</th>
+            </tr>
+            <tr>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna1"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna2"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna3"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna4"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna5"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna6"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna7"/></th>
+                    <th><input class="form-control" placeholder="Filtrar:" type="text" id="txtColuna8"/></th>
+            </tr> 
+          </thead>
+          <tbody id="tbody">              
+          </tbody>
+        </table>
+        <div>
+          <button id="anterior" class="btn btn-danger" disabled>&lsaquo; Anterior</button>
+              <span id="numeracao"></span>
+          <button id="proximo" class="btn btn-danger" disabled>Próximo &rsaquo;</button>
+        </div>  
+      </div>
+      <hr>
+    </div>
+
+      <footer id="footer-2" class="wide-60 footer division">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-8 col-lg-7">
+              <div class="footer-info p-right-30 m-bottom-40"> 
+                <img src="img/logo-neoassist.png" alt="footer-logo">
+              </div>
+            </div>
+          </div>  <!-- END FOOTER CONTENT -->
+
+          <!-- BOTTOM FOOTER -->
+          <div class="bottom-footer">
+            <div class="row">
+              <!-- FOOTER COPYRIGHT -->
+              <div class="col-md-12" >
+                <div class="footer-copyright">
+                  <p>&copy; 2018 <span>NeoAssist.</span> All Rights Reserved</p>                  
+                </div>
+              </div>        
+            </div>  <!-- End row -->
+          </div>  <!-- END BOTTOM FOOTER -->
+        </div>      <!-- End container -->
+      </footer> <!-- END FOOTER-2 -->
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>   
+  <script src="js/custom.js"></script> 
+  <script src="js/sortable.js"></script> 
+</body>
+</html>

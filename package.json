@@ -1,0 +1,14 @@
+{
+  "name": "desafio-back-end-2",
+  "version": "1.0.0",
+  "description": "Trabalho desenvolvido para neoassit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cleiton correa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
